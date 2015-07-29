@@ -1,0 +1,16 @@
+//
+//  BasePCH.pch
+//  VoucherCollection
+//
+//  Created by ooo on 14-11-10.
+//  Copyright (c) 2014年 zy. All rights reserved.
+//
+
+#ifndef VoucherCollection_BasePCH_pch
+#define VoucherCollection_BasePCH_pch
+
+#import "Define.h"
+#import "UIView+AutoLayout.h"
+#import "EntityOneDao.h"
+
+#endif

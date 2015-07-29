@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Company" representedClassName="Company" syncable="YES">
+        <attribute name="dbID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dwid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="ipAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kjmonth1" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="kjmonth2" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="kjyear1" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="kjyear2" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="ndid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="xmmc" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CompanyInfoFromNet" representedClassName="CompanyInfoFromNet" syncable="YES">
+        <attribute name="dwid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kjmonth1" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="kjmonth2" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="kjyear1" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="kjyear2" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="ndid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="xmmc" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="DetailLocal" representedClassName="DetailLocal" syncable="YES">
+        <attribute name="bh" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="chouYang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cyfaname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dffse" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dwid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="fjstatus" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="iden" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="ipAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isSelected" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="jffse" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jzsj" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kjmonth" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="kjyear" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="kmbh" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kmmc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ndid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="pzbh" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="pzzl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sm" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Examine" representedClassName="Examine" syncable="YES">
+        <attribute name="dwid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="ndid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="parId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parMeanIng" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ExamineIden" representedClassName="ExamineIden" syncable="YES">
+        <attribute name="hasCheck" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="iden" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="ipAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parname" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="IPInfos" representedClassName="IPInfos" syncable="YES">
+        <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iden" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="ipAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ipId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Photos" representedClassName="Photos" syncable="YES">
+        <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="companyTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dbName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dwid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="hasSure" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="iden" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="ipAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ndid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="takeMoney" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskDetail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="thing" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TimeLocal" representedClassName="TimeLocal" syncable="YES">
+        <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ipAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="kjMonth1" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="kjMonth2" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="kjYear1" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="kjYear2" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="ndId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="pzfjCount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskCount" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="UploadPicPath" representedClassName="UploadPicPath" syncable="YES">
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Company" positionX="-45" positionY="117" width="128" height="195"/>
+        <element name="CompanyInfoFromNet" positionX="-45" positionY="189" width="128" height="150"/>
+        <element name="DetailLocal" positionX="-45" positionY="135" width="128" height="375"/>
+        <element name="Examine" positionX="-45" positionY="189" width="128" height="135"/>
+        <element name="ExamineIden" positionX="-45" positionY="189" width="128" height="120"/>
+        <element name="IPInfos" positionX="-36" positionY="99" width="128" height="150"/>
+        <element name="Photos" positionX="-54" positionY="36" width="128" height="225"/>
+        <element name="TimeLocal" positionX="-45" positionY="117" width="128" height="180"/>
+        <element name="UploadPicPath" positionX="-45" positionY="189" width="128" height="73"/>
+    </elements>
+</model>
